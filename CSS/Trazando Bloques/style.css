@@ -1,0 +1,43 @@
+.bloque_gris{
+    width: 950px;
+    height: 600px;
+    background-color: silver;
+    margin: auto;
+    padding: 20px;
+}
+.bloque_verde{
+    width: 950px;
+    height: 150px;
+    background-color: green;
+}
+.bloque_azul{
+    display: inline-block;
+    width: 200px;
+    height: 290px;
+    background-color: blue;
+    margin-top: 20px;
+}
+.bloque_rojo{
+    display: inline-block;
+    width: 725px;
+    height: 430px;
+    background-color: red;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bloques_amarillos{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.bloque_morado{
+    width: 640px;
+    height: 130px;
+    background-color: purple;
+    margin-top: 30px;
+    margin-left: 15px;
+}

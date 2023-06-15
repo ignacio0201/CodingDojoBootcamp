@@ -1,0 +1,258 @@
+*{
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+.contenedor{ /*CONTENEDOR*/
+    width: 970px;
+    height: 970px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /*HEADER*/
+    #globo_img{
+        width: 100px;
+        margin-top: -5px;
+    }
+    .header h1{
+        color: rgb(71, 71, 71);
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 22px;
+        font-size: 45px;
+        font-weight: normal;
+    }
+    .header h2{
+        background-image: linear-gradient(rgb(44,106,158), rgb(83,131,170), rgb(44,106,158));
+        color: white;
+        background-color: rgb(44, 106, 158);
+        padding: 15px;
+        padding-left: 20px;
+        margin-top: -25px;
+        font-weight: normal;
+        font-size: 30px;
+    }
+    .header span{
+        color: rgb(38, 102, 156);
+    }
+    .box_left_info{ /*MAIN BOX LEFT INFO*/
+        display: inline-block;
+        width: 220px;
+        height: 260px;
+        padding: 0px 4px;
+    }
+    .box_left_info h4{
+        display: inline-block;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    .box_left_info h4 span{
+        color: rgb(215, 41, 41);
+    }
+    .box_left_info p{
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .box_left_info p span{
+        color: rgb(38, 102, 156);
+    }
+    .buttons_box_left{
+        width: 220px;
+        height: 40px;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.483);
+    }
+    .buttons_box_left a{
+        text-decoration: none;
+        color: white;
+        font-weight: normal;
+        font-size: 19px;
+    }
+    #button_blue{
+        background-image: linear-gradient(to top, #2167a1, #6499c1);
+    }
+    #button_orange{
+        background-image: linear-gradient(to top, #ee7505, #e9ab5c);
+    }
+    .box_left_info hr{
+        color: rgba(0, 0, 0, 0.541);
+        margin-top: 5px;
+    }
+    .box_left_add{ /*BOX LEFT ADD*/
+        width: 227px;
+        height: 350px;
+    }
+    #backgroundadd_img{
+        width: 226px;
+        height: 340px;
+        vertical-align: top;
+        margin-top: 15px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+    }
+    .box_left_add p{
+        color: white;
+        margin-top: -320px;
+        font-size: 27px;
+        text-align: center;
+        padding: 3px;
+    }
+    #add_img{
+        width: 100px;
+        margin-left: 65px;
+        margin-top: -3px;
+    }
+    .box_left_add button{
+        background-image: linear-gradient(to top, rgb(6, 193, 221), rgb(118,208,222));
+        border: none;
+        width: 190px;
+        height: 35px;
+        margin-left: 18px;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    }
+    .box_left_add a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: 0px;
+    }
+    #flechitas{ /*FLECITAS BOTON ANUNCIO*/
+        display: inline-block;
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        vertical-align: top;
+        margin-top: -1px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.195) ,rgba(255, 255, 255, 0.714), rgb(255, 255, 255));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .main{ /*MAIN*/
+        background-image: linear-gradient(to bottom, #e6e6e6, #ffffff, #ffffff, #ffffff, #ffffff);
+        margin: 0px auto;
+        width: 970px;
+        height: 830px;
+        margin-top: -614px;
+    }
+    .main_top{ /*MAIN TOP*/
+        width: 715px;
+        height: 830px;
+        margin-left: 255px;
+    }
+    #home_img{
+        width: 25px;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    #dns_home{
+        color: rgb(38, 102, 156);
+        font-weight: bold;
+        text-decoration: none;
+        position: absolute;
+        margin-top: 16px;
+        margin-left: 3px;
+    }
+    #phone_img{
+        width: 45px;
+        margin-left: 442px;
+        margin-top: 11px;
+        margin-bottom: 7px;
+    }
+    .phone{ /*BOX PHONE*/
+        display: inline-block;
+        width: 180px;
+        height: 70px;
+        margin-left: 525px;
+        vertical-align: top;
+        margin-top: -68px;
+    }
+    .phone_text{
+        color: rgba(0, 0, 0, 0.548);
+        font-size: 12px;
+        margin-left: 7px;
+        font-weight: bold;
+    }
+    #phone_number{
+        color: rgb(0,192,221);
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #phone_hr{
+        color: rgba(0, 0, 0, 0.486);
+        margin-top: -10px;
+        margin-right: 15px;
+    }
+    .main_middle{ /*MAIN MIDDLE*/
+        margin-top: 7px;
+    }
+    .titulos_main{
+        color: rgb(38, 102, 156);
+    }
+    .main_middle span{
+        color: rgb(38, 188, 211);
+    }
+    .main .main_middle .letranegrita_main{
+        color: black;
+        font-weight: bold;
+    }
+    .main_middle p{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .main_middle ul, ol{
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .main_middle li{
+        margin-bottom: 5px;
+    }
+    #clientserver_img{
+        display: inline-block;
+        width: 330px;
+        margin-left: 190px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .footer{ /*FOOTER*/
+        margin-top: 25px;
+        padding: 10px;
+        height: 120px;
+        border: 5px solid rgb(0,135,221);
+        border-bottom: none;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.543);
+    }
+    #html_img{
+        width: 130px;
+    }
+    .footer p,h3{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+    .footer p{
+        width: 540px;
+        margin-left: 148px;
+    }
+    #footer_parrafouno{
+        margin-top: -90px;
+    }
+    #footer_parrafodos{
+        margin-top: -45px;
+    }
+    #footer_italic{
+        color: black;
+        font-style: italic;
+    }
+    .footer a{
+        color: rgb(2,151,173);
+        text-decoration: none;
+    }

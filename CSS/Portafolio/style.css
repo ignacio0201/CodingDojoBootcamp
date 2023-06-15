@@ -1,0 +1,266 @@
+*{
+    /*outline: 1px solid black;*/
+    margin: 0px auto;
+}
+/*CAJA CONTENEDORA*/
+.porafolio{
+    width: 970px;
+    height: 970px;
+}
+    /*HEADER*/
+    .header{
+        background-color: #F3F3F3;
+        width: 970px;
+        height: 60px;
+    }
+    .header h1{
+        display: inline-block;
+        width: 520px;
+        font-family: cursive;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .header h2{
+        display: inline-block;
+        width: 367px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 3px;
+    }
+    /*MAIN FONDO*/
+    .main{
+        background-image: linear-gradient(to left, #48353d, #6f5964, #56424b); 
+        width: 970px;
+        height: 840px;
+    }
+        /*CAJA MODELO*/
+        .fotomodelo{
+            display: inline-block;
+            width: 400px;
+            height: 250px;
+            border: 5px solid rgb(201, 200, 200);
+            margin-left: 18px;
+            margin-top: 18px;
+        }
+        /*CAJA ABOUT*/
+        .about{
+            display: inline-block;
+            background-image: linear-gradient(to right, #fdfcfd, #ebe2ea, #dbccda);
+            width: 510px;
+            height: 260px;
+            margin-left: 12px;
+            vertical-align: top;
+            margin-top: 18px;
+            font-family: sans-serif;
+        }
+            .about_header{
+                background-image: linear-gradient(silver,gray,silver); 
+                padding: 10px;
+                color: rgba(255, 255, 255, 0.85);
+                font-size: 15px;
+            }
+            .about_main{
+                font-size: 16px;
+                margin: 11px;
+            }
+            .about_main a{
+                color: black
+            }
+        /*CAJA LAMODE*/
+        .lamode{
+            display: inline-block;
+            background-image: linear-gradient(to right, #fdfcfd, #ebe2ea, #dbccda);
+            width: 286px;
+            height: 530px;
+            margin-left: 19px;
+            margin-top: 12px;
+            font-family: sans-serif;
+        }
+            .lamode_header{
+                background-image: linear-gradient(silver,gray,silver); 
+                padding: 10px;
+                color: rgba(255, 255, 255, 0.85);
+                font-size: 15px;
+            }
+            .lamode_main img{
+                width: 286px;
+                height: 145px;
+            }
+            .lamode_main p{
+                font-size: 13.5px;
+                margin: 9px;
+            }
+            .lamode_footer{
+                width: 286px;
+                height: 188px;
+            }
+                .lamode_footer_technologies{
+                    background-image: linear-gradient(silver,gray,silver); 
+                    padding: 9px;
+                    color: rgba(255, 255, 255, 0.85);
+                    font-size: 15px;
+                    margin-top: 50px;
+                }
+                .lamode_footer_icons img{
+                    width: 38px;
+                    margin-left: 13px;
+                    margin-top: 10px;
+                }
+                .lamode_footer a{
+                    background-color: #407D61;
+                    display: block;
+                    text-align: center;
+                    width: 55px;
+                    margin-top: 10px;
+                    padding: 4px;
+                    border-radius: 8px;
+                    font-size: 13px;
+                    color: white;
+                    text-decoration: none;
+                    font-family: sans-serif;
+                    box-shadow: 4px 4px 4px gray;
+                    border: 1px solid rgb(16, 78, 16);
+                }
+        /*CAJA FAMILY CONTACTS*/
+        .familycontacts{
+            display: inline-block;
+            background-image: linear-gradient(to right, #fdfcfd, #ebe2ea, #dbccda);
+            width: 286px;
+            height: 530px;
+            vertical-align: top;
+            margin-left: 34px;
+            margin-top: 12px;
+            font-family: sans-serif;
+        }
+            .familycontacts_header{
+                background-image: linear-gradient(silver,gray,silver); 
+                padding: 10px;
+                color: rgba(255, 255, 255, 0.85);
+                font-size: 15px;
+            }
+            .familycontacts_main img{
+                width: 286px;
+                height: 145px;
+            }
+            .familycontacts_main p{
+                font-size: 13.5px;
+                margin: 9px;
+            }
+            .familycontacts_footer_technologies{
+                background-image: linear-gradient(silver,gray,silver); 
+                padding: 9px;
+                color: rgba(255, 255, 255, 0.85);
+                font-size: 15px;
+                margin-top: 33px;
+            }
+            .familycontacts_footer_icons img{
+                width: 38px;
+                margin-left: 13px;
+                margin-top: 10px;
+            }
+            .familycontacts_footer a{
+                background-color: #407D61;
+                display: block;
+                text-align: center;
+                width: 95px;
+                margin-top: 10px;
+                padding: 4px;
+                border-radius: 8px;
+                font-size: 13px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                box-shadow: 4px 4px 4px gray;
+                border: 1px solid rgb(16, 78, 16);
+            }
+        /*CAJA FIVE ELEVEN*/
+        .fiveeleven{
+            display: inline-block;
+            background-image: linear-gradient(to right, #fdfcfd, #ebe2ea, #dbccda);
+            width: 286px;
+            height: 530px;
+            vertical-align: top;
+            margin-left: 34px;
+            margin-top: 12px;
+            font-family: sans-serif;
+        }
+        .fiveeleven_header{
+            background-image: linear-gradient(silver,gray,silver); 
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 15px;
+        }
+        .fiveeleven_main img{
+            width: 286px;
+            height: 145px;
+        }
+        .fiveeleven_main p{
+            font-size: 13.5px;
+            margin: 9px;
+        }
+        .fiveeleven_footer_technologies{
+            background-image: linear-gradient(silver,gray,silver); 
+            padding: 9px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 15px;
+            margin-top: -7px;
+        }
+        .fiveeleven_footer_icons img{
+            width: 38px;
+            margin-left: 13px;
+            margin-top: 10px;
+        }
+        .fiveeleven_footer a{
+            background-color: #407D61;
+            display: block;
+            text-align: center;
+            width: 63px;
+            margin-top: 10px;
+            padding: 4px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            box-shadow: 4px 4px 4px gray;
+            border: 1px solid rgb(16, 78, 16);
+        }
+    /*FOOTER*/
+    .footer{
+        background-color: #F3F3F3;
+        width: 970px;
+        height: 67px;
+        font-family: sans-serif;
+    }
+    .footer img{
+        width: 18px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    .footer p{
+        padding: 7px;
+    }
+        #icon_github{
+            margin-left: 2px;
+        }
+        #icon_linkedin{
+            margin-left: 2px;
+        }
+        #icon_twitter{
+            margin-left: 2px;
+        }
+        #icon_codepen{
+            margin-left: 2px;
+        }
+    .footer p{
+        padding: 7px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer a{
+        display: inline-block;
+        font-style: italic;
+        color: black;
+        margin-top: 10px;
+        margin-left: 25px;
+    }

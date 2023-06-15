@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+        //Parte 2
+
+        //Print 1 to x
+        console.log('ejercicio 1')
+        //Por favor, completa los siguientes códigos para que la función imprima (print) todos los enteros (integers) de 1 a x. Si x es negativo, haz que se muestre (print/log) “número negativo” y que la función devuelva falso.
+        function printUpTo(x){
+            if (x<0){
+                console.log('número negativo');
+                return false;
+            }
+            for(var i=1; i<=x; i++){
+                console.log(i);
+            }
+        }   
+        printUpTo(1000); // debería imprimir todos los enteros de 1 to 1000
+        var y = printUpTo(-10); // debería imprimir false
+        console.log(y); // debería imprimir false
+
+
+        //PrintSum
+        console.log('ejercicio 2')
+        //Completa el código de más abajo para que la función imprima enteros (integers) de 0 a x y donde cada entero imprima la suma (sum) parcial. Haz que la función entregue la suma final.
+        function printSum(x){
+            var sumaparcial = 0;
+            for(var i=0; i<=x; i++){
+                console.log('entero '+i);
+                sumaparcial = sumaparcial+i;
+                console.log('sumparcial '+sumaparcial);
+            }
+        return sumaparcial;
+        }
+        y = printSum(255) // debería imprimir todos los enteros de 0 a 255 y que cada entero imprima la suma parcial.
+        console.log('sumatotal '+ y) // // debería imprimir 32640
+
+
+        //PrintSumArray
+        console.log('ejercicio 3')
+        //Completa el código a continuación para que la función entregue la suma de todos los valores en un array dado.
+        function printSumArray(x){
+            var sum = 0;
+            for(var i=0; i<x.length; i++) {
+            sum += x[i];
+            }
+        return sum;
+        }
+        console.log(printSumArray([1,2,3]) ); // debería imprimir 6
+
+        
+        //Bonus: LargestElement
+        console.log('ejercicio bonus')
+        //Crea una función que entregue el elemento más grande (largest element) en un array. Por ejemplo largestElement([1,30,5,7]) debiera dar como resultado 30.
+        function largestElement(arr){
+            var largest=arr[0]
+            for(var i=1; i<=arr.length; i++){
+                if(arr[i]>largest){
+                    largest=arr[i]
+                }
+            }
+        return largest;
+        }
+        console.log(largestElement([1,30,5,7]))
+    </script>
+</head>
+<body>
+</body>
+</html>

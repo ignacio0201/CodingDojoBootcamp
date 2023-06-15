@@ -1,0 +1,65 @@
+.bloque_gris{
+    width: 950px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+.bloque_verde{
+    width: 950px;
+    height: 150px;
+    background-color: rgb(0,153,0)
+}
+.bloque_azul{
+    display: inline-block;
+    width: 200px;
+    height: 290px;
+    background-color: blue;
+    margin-top: 20px;
+}
+.bloque_rojo{
+    display: inline-block;
+    width: 725px;
+    height: 430px;
+    background-color: red;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bloques_amarillos{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.bloque_morado{
+    width: 640px;
+    height: 130px;
+    background-color: rgb(127,1,255);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+/*MEDIA QUERIES*/
+
+/*DESKTOP*/
+@media only screen and (min-width: 1024px){
+    .lg-1{
+        width: 25%;
+    }
+}
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .med-2{
+        width: 50%;
+    }
+}
+/*PHONE*/
+@media only screen and (max-width: 480px){
+    .sm-4{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log('Ejercicio 1')
+        //1) Dados un array y un valor Y, cuenta e imprime (print) el número de valores del array que sean mayores que Y.
+        function calcularvaloresmayoresqueY(arr){
+            var mayoresqueY = [];
+            var Y = 4;
+
+            for(var i=0; i<arr.length; i++){
+                if(arr[i]>Y){
+            mayoresqueY.push(arr[i]);
+                }
+            }
+            return mayoresqueY;
+        }
+        console.log(calcularvaloresmayoresqueY([3,5,10,1,2]))
+        
+        //----------------------------------------------------------------------------------------------------------//
+        console.log('Ejercicio 2')
+        //2) Dado un array, imprime los valores máximos (max), mínimos (min) y promedio (average) para el array. 
+        function calcularvalores(arr){
+            var valormin = arr[0];
+            var valormax = arr[0];
+            var suma = 0;
+            
+            for(var i=0; i<arr.length; i++){
+                if(arr[i]>valormax){
+                    valormax=arr[i];
+                }
+                if(arr[i]<valormin){
+                    valormin=arr[i];
+                }
+                suma += arr[i];
+            }
+            var promedio = suma/arr.length;
+            console.log('valormin '+valormin);
+            console.log('valormax '+valormax);
+            console.log('promedio '+promedio);
+        }
+        var calcular =[5,10,15];
+        calcularvalores(calcular);
+        //----------------------------------------------------------------------------------------------------------//
+        console.log('Ejercicio 3')
+        //3) Dado un array de números, crea una función que dé como resultado un nuevo array donde los valores negativos se reemplacen por el texto (string) ‘Dojo’. Por ejemplo, reemplazarNegativos([1,2,-3,-5,5]) debiera devolver [1,2, “Dojo”, “Dojo”, 5].
+        function reemplazarNegativos(arr){
+            var arrReemplazado = [];
+            for(var i=0; i<arr.length; i++){
+                if(arr[i]<0){
+                    arrReemplazado.push('Dojo');
+                }
+                else{
+                arrReemplazado.push(arr[i]);
+                }
+            }
+            return arrReemplazado
+        }
+        console.log(reemplazarNegativos([1,2,-3,-5,5]));
+        //----------------------------------------------------------------------------------------------------------//
+        console.log('Ejercicio 4')
+        //4) Dado un array y su respectivo índice, remueve los valores en el rango del índice dado( acortando el array). Por ejemplo, removerRango([20,30,40,50,60,70],2,4)debiera devolver [20,30,70].
+        function removerRango(arr){
+            
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
