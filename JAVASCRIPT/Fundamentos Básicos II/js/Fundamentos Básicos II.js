@@ -28,8 +28,8 @@ function printMinReturnMax(array) {
             max = array[i];
         }
     }
-    console.log("El valor menor es:", min);
-    return max; //Debe devolver 1
+    console.log("El valor menor es:", min); // debe imprimir 1
+    return max;
 }
 console.log("El valor mayor es:", printMinReturnMax([1,2,3,4,5])); //Debe devolver 5
 
@@ -85,24 +85,32 @@ console.log("Sus valores han sido modificados exitosamente", contarPositivos([-1
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log("Ejercicio 6 (no completado)");
+console.log("Ejercicio 6");
 //Pares e Impares - Crea una función que acepte un array. Cada vez que ese array tenga 3 valores impares seguidos, imprime (print) “¡Qué imparcial!”, y cada vez que tenga 3 pares seguidos, imprime (print) “¡Es para bien!”.
 
 function valSeguidos(array) {
-    let impares = [];
-    let pares = [];
+    let impares = 0;
+    let pares = 0;
 
     for (let i = 0; i < array.length; i++) {
-        if (array[i] % 2 == 0) {
-            pares.push(array[i]);
-        }
-        else{
-            impares.push(array[i]);
+        if (array[i] % 2 != 0) {
+            impares++;
+            pares = 0;
+            if (impares === 3) {
+                console.log("¡Qué imparcial!");
+                impares = 0;
+            }
+        } else {
+            pares++;
+            impares = 0;
+            if (pares === 3) {
+                console.log("¡Es para bien!");
+                pares = 0;
+            }
         }
     }
-    return impares;
 }
-console.log(valSeguidos([5,-2,1,7,-9,2,3,2,4,6]));
+console.log(valSeguidos([3,5,-11,2,10,-18,-5,20,13,19]));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -121,14 +129,85 @@ function sumarUno(arr) {
     }
     return arr;
 }
-console.log("El conjunto de valores sería:",sumarUno([1,2,3,4,5]));// [1,3,3,5,5]
+console.log("El conjunto de valores sería:",sumarUno([1,2,3,4,5]));// debe devolver [1,3,3,5,5]
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log("Ejercicio 8");
+console.log("Ejercicio 8 (no completado)");
 //Longitudes previas - Pasado un array (similar a decir ‘tomado un array’ o ‘dado un array’) que contiene strings, reemplaza cada string con un número de acuerdo cantidad de letras (longitud) del string anterior. Por ejemplo, longitudesPrevias([“programar”,“dojo”, “genial”]) debería devolver [“programar”,9, 4]. Pista: ¿For loops solo puede ir hacia adelante?
 
 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
+console.log("Ejercicio 9");
+//Agrega Siete - Construye una función que acepte un array. Devuelve un nuevo array con todos los valores del original, pero sumando 7 a cada uno. No alteres el array original. Por ejemplo, agregaSiete([1,2,3]) debería devolver [8,9,10] en un nuevo array. 
+
+function agregaSiete(array) {
+    let nuevoArray = [];
+
+    for (let i = 0; i < array.length; i++) {
+        array[i] += 7;
+        nuevoArray.push(array[i]);
+    }
+    return nuevoArray;
+}
+console.log("A cada valor se le ha sumado 7:", agregaSiete([1,2,3])); //debe devolver [8,9,10]
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log("Ejercicio 10 (no completado)");
+//Array Inverso - Dado un array, escribe una función que invierte sus valores en el lugar. Ejemplo: invertir([3,1,6,4,2)) devuelve el mismo array pero con sus valores al revés, es decir [2,4,6,1,3]. Haz esto sin crear un array temporal vacío. (Pista: necesitarás intercambiar (swap) valores).
+
+function invertir(array) {
+
+}
+console.log(invertir([3,1,6,4,2]));
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log("Ejercicio 11");
+//Perspectiva: Negativa - Dado un array crear y devuelve uno nuevo que contenga todos los valores del array original, pero negativos (no simplemente multiplicando por -1). Dado [1,-3,5], devuelve [-1,-3,-5].
+
+function devolverNegativos(array) {
+    let nuevoArr = [];
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] >= 0) {
+            array[i] = array[i] * -1;
+            nuevoArr.push(array[i]);
+        } else {
+            nuevoArr.push(array[i]);
+        }
+    }
+    return nuevoArr;
+}
+console.log("Los valores han sido cambiados a negativos",devolverNegativos([1,-3,5,0]));
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log("Ejercicio 12 (no completado)");
+//Siempre hambriento - Crea una función que acepte un array e imprima (print) “yummy” cada vez que alguno de los valores sea “comida”. Si ningún valor es “comida”, entonces imprime “tengo hambre” una vez. 
+
+function imprimirYummy(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === "comida") {
+            console.log("yummy");
+        }
+    }
+    return array;
+}
+console.log(imprimirYummy(["casa","comida","agua","comida"]));
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log("Ejercicio 13 (no completado");
+//Cambiar hacia el centro -  Dado un array, cambia el primer y último valor, el tercero con el ante penútimo, etc. Ejemplo: cambiaHaciaElCentro([true, 42, “Ada”, 2, “pizza”]) cambia el array a [“pizza¨, 42, “Ada”, 2, true]. cambiaHaciaElCentro([1,2,3,4,5,6]) cambia el array a [6,2,4,3,5,1]. No es necesario devolver (return) el array esta vez. 
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log("Ejercicio 14 (no completado");
+//Escala el Array - Dado un array arr y un número num, multiplica todos los valores en el array arr por el número num, y devuelve el array arr modificado. Por ejemplo, escalaArray([1,2,3], 3] debería devolver [3,6,9].
 
 

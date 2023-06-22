@@ -1,65 +1,60 @@
 .bloque_gris{
-    width: 950px;
-    height: 600px;
-    background-color: white;
+    width: 885px;
+    height: 580px;
+    background-color: rgb(106, 230, 24);
     margin: auto;
     padding: 20px;
 }
 .bloque_verde{
-    width: 950px;
+    width: 885px;
     height: 150px;
-    background-color: rgb(0,153,0)
+    background-color: rgb(0,153,0);
+    margin-bottom: 10px;
 }
 .bloque_azul{
     display: inline-block;
     width: 200px;
     height: 290px;
     background-color: blue;
-    margin-top: 20px;
+    margin-right: 6px;
 }
 .bloque_rojo{
     display: inline-block;
-    width: 725px;
-    height: 430px;
+    width: 645px;
+    height: 405px;
     background-color: red;
     vertical-align: top;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .bloques_amarillos{
     display: inline-block;
     width: 200px;
     height: 200px;
     background-color: yellow;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 .bloque_morado{
-    width: 640px;
+    width: 630px;
     height: 130px;
     background-color: rgb(127,1,255);
-    margin-top: 30px;
-    margin-left: 15px;
 }
 
 /*MEDIA QUERIES*/
 
 /*DESKTOP*/
 @media only screen and (min-width: 1024px){
-    .lg-1{
-        width: 25%;
-    }
+    
 }
 /*TABLET*/
 @media only screen and (min-width: 481px) and (max-width: 1023px){
-    .med-2{
-        width: 50%;
+    .med-0{
+        display: none;
     }
 }
 /*PHONE*/
 @media only screen and (max-width: 480px){
-    .sm-4{
-        width: 100%;
-    }
-    
+   
 }
