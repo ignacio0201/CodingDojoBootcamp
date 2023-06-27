@@ -159,7 +159,10 @@ console.log("Ejercicio 10 (no completado)");
 //Array Inverso - Dado un array, escribe una función que invierte sus valores en el lugar. Ejemplo: invertir([3,1,6,4,2)) devuelve el mismo array pero con sus valores al revés, es decir [2,4,6,1,3]. Haz esto sin crear un array temporal vacío. (Pista: necesitarás intercambiar (swap) valores).
 
 function invertir(array) {
-
+    for (let i = array.length - 1; i < 0; i--) {
+        array.push(array[i]);
+    }
+    return array;
 }
 console.log(invertir([3,1,6,4,2]));
 
@@ -181,7 +184,7 @@ function devolverNegativos(array) {
     }
     return nuevoArr;
 }
-console.log("Los valores han sido cambiados a negativos",devolverNegativos([1,-3,5,0]));
+console.log("Los valores han sido cambiados a negativos",devolverNegativos([1,-3,5])); //debe devolver [-1,-3,-5]
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -207,7 +210,13 @@ console.log("Ejercicio 13 (no completado");
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log("Ejercicio 14 (no completado");
+console.log("Ejercicio 14");
 //Escala el Array - Dado un array arr y un número num, multiplica todos los valores en el array arr por el número num, y devuelve el array arr modificado. Por ejemplo, escalaArray([1,2,3], 3] debería devolver [3,6,9].
 
-
+function escalaArray(array, num) {
+    for (let i = 0; i < array.length; i++) {
+        array[i] *= num;
+    }
+    return array;
+}
+console.log(escalaArray([1,2,3], 3)); //debe devolver [3,6,9]
