@@ -1,0 +1,11 @@
+INSERT INTO twitter.users (first_name, last_name, handle, birthday, created_at, updated_at) 
+VALUES ('Ignacio', 'Miranda', 'nach0gtr', '2001-01-02', '2023-07-06 14:03:00', '2023-07-06 14:03:00');
+
+SELECT * FROM users;
+
+UPDATE twitter.users 
+SET first_name = 'David' 
+WHERE (id = '5');
+
+DELETE FROM twitter.users
+WHERE (id = '2');
