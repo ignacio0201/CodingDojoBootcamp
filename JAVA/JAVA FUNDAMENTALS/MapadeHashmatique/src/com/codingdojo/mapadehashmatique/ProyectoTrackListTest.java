@@ -15,12 +15,14 @@ public class ProyectoTrackListTest {
 		misFavoritos.agregarTrack("Let It Be", "Should we do something else for a while...");
 		
 		//OBTENIENDO LETRAS DE CANCIONES
+			//BIEN ESCRITA
 //		misFavoritos.obtenerTrack("Puente");
-//		misFavoritos.obtenerTrack("Coloratura");
+			//MAL ESCRITA
+//		misFavoritos.obtenerTrack("  let IT BE  ");
 		
 		//BUSCANDO CANCIONES NO AGREGADAS
-//		misFavoritos.obtenerTrack("   coloratura");
-//		misFavoritos.obtenerTrack("  LET IT BE  ");
+//		misFavoritos.obtenerTrack("Persiana americana");
+//		misFavoritos.obtenerTrack("beat it");
 		
 		//MOSTRANDO LISTA COMPLETA DE CANCIONES
 //		misFavoritos.mostarTrackList();
