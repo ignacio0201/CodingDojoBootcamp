@@ -1,0 +1,12 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/1805.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-family: cursive;
+    color: rgb(0, 149, 255);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 200px;
+}
