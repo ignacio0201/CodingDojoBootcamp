@@ -10,9 +10,6 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String showIndex(HttpSession session) {
-		if(session.getAttribute("count") == null) {
-			session.setAttribute("count", 0);
-		}
 		Integer count = (Integer) session.getAttribute("count");
 		count++;
 		session.setAttribute("count", count);
@@ -20,7 +17,7 @@ public class HomeController {
 	}
 	
 	@RequestMapping("/increasecounterx2")
-	public String showCounter(HttpSession session) {
+	public String showCounterX2(HttpSession session) {
 		if(session.getAttribute("count") == null) {
 			session.setAttribute("count", 0);
 		}
@@ -31,15 +28,16 @@ public class HomeController {
 	}
 	
 	@RequestMapping("/counter")
-	public String showCounter() {
+	public String showCounter(HttpSession session) {
+		if(session.getAttribute("count") == null) {
+			session.setAttribute("count", 0);
+		}
 		return "counter.jsp";
 	}
 	
 	@RequestMapping("/reset")
 	public String resetCounter(HttpSession session) {
-		Integer count = (Integer) session.getAttribute("count");
-		count = 0;
-		session.setAttribute("count", count);
+		session.invalidate();
 		return "counter.jsp";
 	}
 }
