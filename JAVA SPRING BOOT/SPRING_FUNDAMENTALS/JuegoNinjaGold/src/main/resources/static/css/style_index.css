@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    overflow-y: hidden;
+}
+.contenedor{
+    margin: 30px;
+    padding: 10px;
+}
+/* HEADER */
+.header{
+    margin-bottom: 20px;
+    margin-left: 55px;
+    padding: 10px 20px 10px 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.501);
+    background-color: rgba(0, 0, 0, 0.224);
+}
+.title-yourgold{
+    display: inline-block;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.gold{
+	font-size: 45px;
+    display: inline-block;
+    width: 65px;
+    height: 44px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.reset_button{
+    background:
+  -moz-linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #caa1de 27%,
+    #dea1ca 30%,
+    #dedede 38%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #caa1de 93%,
+    #dea1ca);
+  background:
+  -webkit-linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #caa1de 27%,
+    #dea1ca 30%,
+    #dedede 38%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #caa1de 93%,
+    #dea1ca);
+  background:
+  -o-linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #caa1de 27%,
+    #dea1ca 30%,
+    #dedede 38%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #caa1de 93%,
+    #dea1ca);
+  background:
+  linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #caa1de 27%,
+    #dea1ca 30%,
+    #dedede 38%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #caa1de 93%,
+    #dea1ca);
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-left: 130px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #cacaca;
+    color: rgba(0, 0, 0, 0.72);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #b7b7b7;
+    box-shadow: 2px 2px 0.5em rgba(98, 73, 122, 0.55), inset 1px 1px 0 rgba(255, 255, 255, 0.75), inset -1px -1px 0 rgba(0, 0, 0, 0.34);
+}
+/* MAIN */
+.findgold_boxs:hover{
+	transform: scale(1.2);
+}
+
+.findgold_boxs{
+	transition: transform 0.2s ease-in-out;
+    background:
+  -webkit-linear-gradient(
+    -72deg,
+    #ffdea1,
+    #ffffff 16%,
+    #ffdea1 21%,
+    #ffffff 24%,
+    #736445 27%,
+    #ffdea1 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #ffdea1 72%,
+    #ffffff 80%,
+    #ffdea1 84%,
+    #736445);
+    display: inline-block;
+    padding: 30px 70px 30px 70px;
+    text-align: center;
+    margin-left: 55px;
+    border-radius: 15px;
+    /* border: 0.5px solid black; */
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.501);
+    width: 250px;
+}
+.findgold_boxs-titles{
+    color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+    font-size: 60px;
+    border-radius: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.563);
+}
+.findgold_boxs-inf{
+    margin-bottom: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+.findgold_boxs-button{
+    background:
+    -moz-repeating-linear-gradient(
+    top, #565656, #131313 2px, #565656 1px);
+  background:
+    -o-repeating-linear-gradient(
+    top, #565656, #131313 2px, #565656 1px);
+  background:
+    -webkit-repeating-linear-gradient(
+    top, #565656, #131313 2px, #565656 1px);
+  background:
+    repeating-linear-gradient(
+    top, #565656, #131313 2px, #565656 1px);
+    /* background-image: radial-gradient(circle at 50% 50%, #8aff9e 0, #73ffa3 16.67%, #5afca6 33.33%, #3cf2a9 50%, #04e8ab 66.67%, #00dfad 83.33%, #00d6b0 100%); */
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.501);
+}
+.form_boxs{
+	display: inline-block;
+}
+/* CASINO */
+.findgold_boxs-titles-casino{
+    color: rgb(0, 0, 0);
+    margin-bottom: 66px;
+    font-size: 60px;
+    border-radius: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.563);
+}
+
+
+/* FOOTER */
+.footer{
+    margin-top: 50px;
+}
+.footer_title{
+    font-size: 30px;
+    margin-left: 55px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.lista{
+    padding: 20px;
+	overflow: auto;
+	border: 3px solid rgb(48, 48, 48);
+	height: 200px;
+	width: 1700px;
+    margin-top: 10px;
+    margin-left: 55px;
+    background: -moz-repeating-linear-gradient(top, #565656, #131313 2px, #565656 1px);
+    background:-o-repeating-linear-gradient(top, #565656, #131313 2px, #565656 1px);
+    background:-webkit-repeating-linear-gradient(top, #565656, #131313 2px, #565656 1px);
+    background:repeating-linear-gradient(top, #565656, #131313 2px, #565656 1px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.501);
+}
+
+ul li[data-status="earned"] {
+    color: rgb(0, 255, 128);
+}
+
+ul li[data-status="lost"] {
+    color: rgb(255, 0, 0);
+}
